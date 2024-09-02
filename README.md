@@ -12,7 +12,11 @@ _In other words, please do not copy + paste this script and use it. You will get
 3. sudo sh ./examplename1
 
 ## Using __windows__ script
+1. download ps1 file
+2. open powershell as __admin__ and go to where you installed the script
+3. run .\Windows10.ps1
 
+   
 
 
 
