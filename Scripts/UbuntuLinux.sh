@@ -119,7 +119,7 @@ echo "install udf /bin/false" >> /etc/modprobe.d/disable-filesystems.conf
 
 
 
-# Remove unnecessary packages to minimize vulnerabilities
+# Remove unused packages
 echo "Removing unnecessary packages..."
 apt autoremove -y
 
@@ -129,7 +129,7 @@ rkhunter --update
 rkhunter --checkall --skip-keypress
 chkrootkit
 
-# Perform a Lynis security audit for additional recommendations
+# Run lyis audit
 echo "Running Lynis security audit..."
 lynis audit system
 
