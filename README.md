@@ -16,6 +16,10 @@ _In other words, please do not copy + paste this script and use it. You will get
 2. open powershell as __admin__ and go to where you installed the script
 3. run .\Windows10.ps1
 
+
+
+Thanks for using
+
    
 
 
